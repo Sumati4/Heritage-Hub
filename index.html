@@ -1,0 +1,115 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum Ticket Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Museum Ticket Booking Chatbot</h1>
+    </header>
+ Chatbot Section -->
+    <!-- <div class="chat-container">
+        <div class="chat-box" id="chat-box">
+            <div class="message bot">Hello! Welcome to the Museum! How can I help you today?</div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Type your message..." autofocus>
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+
+    Ticket Booking Section -->
+    <!-- <div class="booking-section">
+        <h2>Book Your Tickets</h2>
+        <form id="ticket-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="date">Date of Visit:</label>
+            <input type="date" id="date" required>
+
+            <label for="time">Preferred Time:</label>
+            <input type="time" id="time" required>
+
+            <label for="tickets">Number of Tickets:</label>
+            <input type="number" id="tickets" min="1" max="10" required>
+
+            <button type="submit">Book Tickets</button>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Visit_Museum</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <h4>Visit_Museum</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Special Deals</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Booking Form -->
+        <div class="form-section">
+            <h2>Book Your Museum Tickets</h2>
+            <form method="post">
+                <div class="card">
+                    <h4>Location <i class="bi bi-caret-down-fill"></i></h4>
+                    <select name="location">
+                        <option value="mumbai">Mumbai</option>
+                        <option value="kolkata">Kolkata</option>
+                        <option value="delhi">Delhi</option>
+                    </select>
+                </div>
+
+                <div class="card">
+                    <h4>Date <i class="bi bi-caret-down-fill"></i></h4>
+                    <input type="date" name="date">
+                </div>
+
+                <div class="card">
+                    <h4>Number of persons <i class="bi bi-caret-down-fill"></i></h4>
+                    <input type="number" name="number_of_persons" placeholder="Enter number of visitors">
+                </div>
+
+                <input type="submit" value="Explore Now">
+            </form>
+        </div>
+
+        <!-- Chatbot Section -->
+        <div class="chat-section">
+            <h2>Chat with Us</h2>
+            <div class="chat-box" id="chat-box">
+                <div class="message bot">Hello! How can I assist you with your ticket booking today?</div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="userInput" placeholder="Type your message..." autofocus>
+                <button id="sendBtn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
